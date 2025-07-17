@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 
 export default defineConfig({
+  base: '/ministry_calendar/',
   plugins: [vue()],
   resolve: {
     alias: {
